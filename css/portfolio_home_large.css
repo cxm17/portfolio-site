@@ -1,0 +1,210 @@
+body, html {
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+}
+
+body {
+
+  background-color: lightgray;
+
+}
+
+img, embed, object, video {
+
+  max-width: 100%
+
+}
+
+a {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.flexbox-container {
+
+  max-width: 1300px;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: white;
+
+}
+
+#site_header {
+
+  width: 100%;
+  height: 175px;
+  display: inline-flex;
+  border: 2px solid black;
+  margin-bottom: 11px;
+  order: 0;
+
+}
+
+#header_logo {
+
+  height: 100%;
+  width: 175px;
+
+}
+
+#header_text {
+
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+
+#header_title {
+
+  height: 50%;
+  width: 100%;
+  font-size: 4em;
+  font-weight: 100;
+
+}
+
+#header_subtitle {
+
+  height: 50%;
+  width: 100%;
+  font-size: 1.7em;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+#site_banner {
+
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  order: 1;
+
+
+}
+
+#site_text {
+
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  order: 2;
+
+}
+
+.bluegray {
+
+  color: #3F386A;
+
+}
+
+.lightgray {
+
+  color: #AAA8B7;
+
+}
+
+#site_text_header h2 {
+
+  margin: 0px;
+
+}
+
+#site_text_header h3 {
+
+  margin: 0px;
+  font-weight: lighter;
+  font-size: 15px
+
+}
+
+#site_text p {
+
+  padding: 10px;
+
+}
+
+#project_links {
+
+  padding: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  order: 3;
+
+}
+
+#project_links_header {
+
+  width: 100%;
+  text-align: left;
+
+}
+
+section#project_links article {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+section#project_links article img{
+
+  height: 225px;
+  width: 225px;
+
+}
+
+section#project_links article footer{
+
+  width: 100%;
+
+}
+
+#site_footer {
+
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 6px;
+  margin-top: 11px;
+  order: 4;
+
+}
+
+#site_footer img {
+
+  width: 48px;
+  height: 48px;
+
+}
+
+#site_footer article {
+
+  margin: 10px;
+
+}
+
+#footer_label {
+
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 17px;
+
+}
