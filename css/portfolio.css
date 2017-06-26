@@ -152,12 +152,12 @@ a {
 }
 
 @media screen and (min-width:1px) and (max-width:800px) {
-
   .aside   {
     display: flex;
     border: 0px;
-    min-width: 100%;
+    padding: 0px;
     justify-content: center;
+    min-width: 100%;
   }
   .left-header { display: none; }
   #profile-info { display: none; }
