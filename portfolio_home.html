@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <title>CXM Portfolio</title>
   </head>
+
+  <header class="header">
+    <div class="left-header">
+      <img id="header_logo" src="img/portfolio_header_logo_only.png" alt="site_logo">
+    </div>
+    <div class="right-header">
+      <div class="header-title">Cortez Mack</div>
+      <div class="header-subtitle">Portfolio</div>
+    </div>
+  </header>
   <body>
     <div class="flexbox-container">
-      <header class="header">
-        <div class="left-header">
-          <img id="header_logo" src="img/portfolio_header_logo_only.png" alt="site_logo">
-        </div>
-        <div class="right-header">
-          <div class="header-title">Cortez Mack</div>
-          <div class="header-subtitle">Portfolio</div>
-        </div>
-      </header>
+
       <section class="main">
         <div id="site_banner">
           <img src="img/evolution_clear.png" alt="site_banner">
@@ -77,16 +79,24 @@
           </section>
       </section>
       <aside class="aside">
-
+        <section id="profile-info">
+        <img id="aside-profile-img" src="img/profile-pic.png" alt="profile pic">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nulla vehicula ante arcu, vel viverra elit finibus eu. Proin tempor,
+          eros sit amet bibendum vulputate, magna dolor consectetur nibh
+        </p>
+      </section>
         <article>
           <a href="http://www.linkedin.com/in/cortezxaviermack">
-            <img alt="Aside 1" src="img/linkedin_icon.png">
+            <img class="social-media-icon" alt="Aside 1" src="img/linkedin_icon.png">
             <div class="profile-label">LinkedIn</div>
           </a>
         </article>
         <article>
-          <a href="">
-            <img alt="Aside 2" src="img/resume_icon.png">
+          <a href="resources/Cortez_Xavier_Mack_Resume.pdf">
+            <img class="social-media-icon" alt="Aside 2" src="img/resume_icon.png">
             <div class="profile-label">Resume</div>
           </a>
         </article>
